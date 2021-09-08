@@ -1,0 +1,39 @@
+body{
+  background:floralwhite;
+  font-family:sans-serif;
+  text-transform:;
+  text-align:justify;
+}
+
+}
+
+
+}
+.next:hover{
+  color:green;
+}
+#lib:hover{
+  color:green;
+}
+ li:last-child{
+    color:black;
+}
+img[src^='image']{
+    border: 2px solid black;
+}
+
+img[src^='water']{
+    border: 2px solid black;
+}
+textarea~button{
+  color:green;
+}
+
+/*font families*/
+h1{
+  text-align:center;
+  color:green;
+}
+#map{
+  float:right;
+}

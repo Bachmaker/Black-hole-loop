@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+   <link rel='stylesheet' type='text/css'href='master.css'>
+   <meta charset='UTF-8'>
+   <meta name = 'description' content = 'My first website'>
+   <meta name='author' content='James'>
+   <met name='keywords' content='HTML, My web'>
+   <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+
+
+
+   <title>You deserve better</title>
+</head>
+
+  <div id='header'>
+    <div id='logo'></div>
+    <div id='top-info'> </div>
+    <div id='navbar'>
+
+      <style>
+            form {
+              background-color: #4654e1;
+              width: 300px;
+              height: 44px;
+              border-radius: 5px;
+              display:flex;
+              flex-direction:row;
+              text-align:left;
+            }
+
+            input {
+              all: unset;
+              font: 16px system-ui;
+              color: #fff;
+              height: 100%;
+              width: 100%;
+              padding: 6px 10px;
+            }
+
+            ::placeholder {
+              color: #fff;
+              opacity: 0.7;
+            }
+
+            svg {
+              color: #fff;
+              fill: currentColor;
+              width: 24px;
+              height: 24px;
+              padding: 10px;
+            }
+
+            button {
+              all: unset;
+              cursor: pointer;
+              width: 44px;
+              height: 44px;
+            }
+          </style>
+        </head>
+        <body>
+          <div class='section-1'>
+            
+          </div>
+        
+
+
+
+          <form role="search" id="form">
+            <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
+            <button>
+              <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+            </button>
+          </form>
+          <script>
+            const f = document.getElementById('form');
+            const q = document.getElementById('query');
+            const google = 'https://www.google.com/search?q=site%3A+';
+            const site = 'pagedart.com';
+
+            function submitted(event) {
+              event.preventDefault();
+              const url = google + site + '+' + q.value;
+              const win = window.open(url, '_blank');
+              win.focus();
+            }
+
+            f.addEventListener('submit', submitted);
+          </script>
+     
+
+      
+
+
+
+
+
+
+<div id='p'>
+<p> <h1> Hey there, it feels wonderful to be here.A common mistake agents make
+   is sticking statistical data in the listing description, such as the number of bedrooms,
+    bathrooms, and the home’s square footage. This information is already available
+    in the listing’s data fields.
+
+Don’t be redundant! Descriptions that feature only that dry,
+basic data wind up being short and boring — and they fail to highlight your home’s best features.
+
+“I will always point out those desirable things that the buyer might
+ not know otherwise from just looking at the pictures,” says Santistevan.
+  “The description is our chance to put in things like,
+  the hand scraped mahogany wood flooring, or chiseled stone from Italy.”</h1></p>
+
+
+</div>
+
+  <!--creating a hoverable side navigation tab -->
+  <div>
+  <body id='body1'>
+  <div id="mySidenav" class="body1">
+  <a href="#" id="about">About</a>
+  <a href="#" id="Explore">Explore</a>
+  <a href="#" id="projects">Plan</a>
+  <a href="#" id="contact">Contact</a>
+  </div>
+<hr/>
+
+</div>
+
+
+
+
+</body>
+
+</html>

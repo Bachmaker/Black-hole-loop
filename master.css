@@ -1,0 +1,136 @@
+#header{
+   border-radius:15px;
+   background:black;
+   padding:20px;
+   width:97%;
+   height:30px;
+
+ }
+
+
+ body{
+ margin:0;
+ padding:0;
+ height:50%;
+ width:100%;
+ background-image: url(new2.jpg);
+ background-size:cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ transition: 5s;
+
+
+animation-name:animate ;
+animation-direction:alternate-reverse ;
+animation-duration:30s ;
+animation-fill-mode:forwards ;
+animation-iteration-count:infinite ;
+animation-play-state:running ;
+animation-timing-function:ease-in-out ;
+
+
+
+
+ }
+
+@keyframes animate{
+  0%{
+    background-image:url(new.jpg);
+  }
+  20%{
+    background-image:url(new2.jpg);
+  }
+  40%{
+    background-image:url(new3.jpg);
+  }
+  60%{
+    background-image:url(new.jpg);
+  }
+  80%{
+    background-image:url(new2.jpg);
+  }
+  100%{
+    background-image:url(new3.jpg);
+  }
+}
+
+
+
+
+.tab{
+  position:relative;
+  min-height:200px;
+  clear:both;margin:25px 0;
+  text-align:center;
+  padding:30px;
+}
+#navbar{
+  padding:30px;
+  float:right ;
+  margin-top:-40px;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+    border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px  /* Rounded corners on the top right and bottom right side */
+
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 90px;
+  background-color: maroon;
+}
+
+#Explore {
+  top: 150px;
+  background-color: #123456; /* Blue */
+}
+
+#projects {
+  top: 210px;
+  background-color: #556B2f; /* Red */
+}
+
+#contact {
+  top: 270px;
+  background-color: #555 /* Light Black */
+}
+
+#real{
+
+  width:95%;
+  margin-top:-150px;
+}
+#p{
+  display:flex;
+  color: blue;
+  margin-left:40%;
+  margin-top:70px;
+  text-align:justify;
+  padding:10px;
+  border-style:outset;
+  border-radius:25px;
+
+}
+hr{
+
+  margin-left: auto;
+  margin-right:auto;
+  width: 100%;
+  background-color: lightblue;
+  border-style: solid
+}
